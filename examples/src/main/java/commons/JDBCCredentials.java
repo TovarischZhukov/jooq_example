@@ -42,6 +42,10 @@ public final class JDBCCredentials {
     return login;
   }
 
+  public @NotNull String dbName() {
+    return dbName;
+  }
+
   public @NotNull String password() {
     return password;
   }
