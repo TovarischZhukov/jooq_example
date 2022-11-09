@@ -4,7 +4,6 @@ dependencies {
 }
 
 jooq {
-    version.set("3.17.4")  // default (can be omitted)
     edition.set(nu.studer.gradle.jooq.JooqEdition.OSS)  // default (can be omitted)
 
     configurations {
