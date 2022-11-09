@@ -10,7 +10,7 @@ import org.jooq.impl.DSL;
 
 import java.util.Properties;
 
-import static generated.Tables.AUTHOR;
+import static generated.tables.Author.AUTHOR;
 
 public final class Main {
     private static final @NotNull JDBCCredentials CREDS = JDBCCredentials.DEFAULT;
